@@ -80,26 +80,28 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  margin: 0 auto 32px auto;
 }
 
 .slider .slick-dots li {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 2px;
 }
 
 .slider .slick-dots button {
   font-size: 0;
-  width: 4px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
   background-color: rgb(0, 0, 0, 0);
   border-radius: 50%;
   border: 1px solid white;
-
+  padding: 1px 0;
 }
 
 .slider .slick-dots li.slick-active button {
   background-color: #ffffff;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 
 .slider__item {
@@ -143,6 +145,10 @@ header {
           margin: 3px auto auto 1px;
         }
       }
+    }
+    .btn:active {
+      transform: scale(0.98);
+      box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
     }
   }
 }

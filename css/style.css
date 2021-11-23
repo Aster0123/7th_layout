@@ -46,10 +46,112 @@ h2 {
 }
 
 .features {
-  height: 300px;
+  height: 471px;
   background-color: #313131;
+  display: flex;
+}
+.features .row {
+  display: flex;
+  flex-direction: row;
+  width: 611px;
+  margin: auto;
+}
+.features .row .features_right {
+  padding: 0 0 0 22px;
+}
+.features .row .features_right .share_title2 {
+  width: 295px;
+}
+.features .row .features_right .share_title2 h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 100px 0 13px 0;
+}
+.features .row .features_right .share_title2 p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #aeaeae;
+  padding-right: 20px;
+  margin-bottom: 19px;
+}
+.features .row .features_left {
+  padding: 45px 0 0 26px;
 }
 
+/*slider*/
+.slider33 {
+  width: 275px;
+  margin-top: 40px;
+  background-color: white;
+  height: 136px;
+  border-radius: 4px;
+}
+
+.slider__item_2 {
+  display: flex;
+  flex-direction: row;
+}
+.slider__item_2 img {
+  margin: auto;
+}
+.slider__item_2 p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 9px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #aeaeae;
+  padding: 0 35px 0 19px;
+}
+
+.slick-slider {
+  min-width: 0;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slider33 .slick-dots {
+  display: flex;
+  padding-left: 20px;
+  height: 25px;
+  margin-top: 33px;
+  background-color: #f06464;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.slider33 .slick-dots li {
+  list-style: none;
+  margin: 0 2px;
+}
+
+.slider33 .slick-dots button {
+  font-size: 0;
+  width: 7px;
+  height: 7px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 1px 0;
+}
+
+.slider33 .slick-dots li.slick-active button {
+  background-color: #ffffff;
+  border: 2px solid #fff;
+}
+
+/*slider end*/
 header {
   background: url("../image/background_425.png");
   background-size: cover;
@@ -122,25 +224,28 @@ header .menu nav ul li:hover::before {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  margin: 0 auto 32px auto;
 }
 
 .slider .slick-dots li {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 2px;
 }
 
 .slider .slick-dots button {
   font-size: 0;
-  width: 4px;
-  height: 10px;
+  width: 7px;
+  height: 7px;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 50%;
   border: 1px solid white;
+  padding: 1px 0;
 }
 
 .slider .slick-dots li.slick-active button {
   background-color: #ffffff;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
 }
 
 .slider__item {
@@ -182,6 +287,114 @@ header .menu nav ul li:hover::before {
 }
 .slider__item .button_download .btn a span {
   margin: 3px auto auto 1px;
+}
+.slider__item .button_download .btn:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+/*slider end*/
+.share {
+  background-color: #262626;
+  height: 429px;
+  display: flex;
+}
+.share .row {
+  display: flex;
+  flex-direction: row;
+  width: 676px;
+  margin: auto;
+}
+.share .row .share_title {
+  width: 295px;
+}
+.share .row .share_title h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 108px 0 13px 0;
+}
+.share .row .share_title p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #aeaeae;
+  padding-right: 20px;
+  margin-bottom: 19px;
+}
+
+.share_right {
+  padding-left: 63px;
+}
+
+.share_left {
+  display: flex;
+}
+.share_left img {
+  margin-top: 42px;
+}
+
+/*slider*/
+.slider22 {
+  width: 295px;
+}
+
+.slider__item_2 {
+  display: flex;
+  flex-direction: row;
+}
+.slider__item_2 img {
+  margin: auto;
+}
+.slider__item_2 p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 9px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #aeaeae;
+  padding: 0 35px 0 19px;
+}
+
+.slick-slider {
+  min-width: 0;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  align-items: flex-start;
+}
+
+.slider22 .slick-dots {
+  display: flex;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.slider22 .slick-dots li {
+  list-style: none;
+  margin: 0 2px;
+}
+
+.slider22 .slick-dots button {
+  font-size: 0;
+  width: 7px;
+  height: 7px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 1px 0;
+}
+
+.slider22 .slick-dots li.slick-active button {
+  background-color: #ffffff;
+  border: 2px solid #fff;
 }
 
 /*slider end*/
@@ -332,77 +545,34 @@ header .menu nav ul li:hover::before {
     margin: 0;
   }
 }
-.share {
-  background-color: #262626;
-  height: 429px;
-}
-.share .row {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-.share .row .share_title h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 27px;
-  line-height: 1.2;
-  font-weight: 500;
-  color: #ffffff;
-}
+@media (max-width: 641px) {
+  .share {
+    height: auto;
+  }
+  .share .row {
+    flex-direction: column-reverse;
+  }
+  .share .row .share_left img {
+    margin: auto;
+  }
+  .share .row .share_right {
+    padding: 0;
+    margin: 50px auto;
+  }
+  .share .row .share_right .share_title h2 {
+    margin: 0 0 13px 0;
+    text-align: center;
+  }
+  .share .row .share_right .share_title p {
+    text-align: center;
+  }
 
-/*slider*/
-.slider22 {
-  width: 295px;
+  .slider22 .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
-
-.slider__item_2 {
-  display: flex;
-  flex-direction: row;
-}
-.slider__item_2 p {
-  font-family: "Varela Round", sans-serif;
-  font-size: 11px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #aeaeae;
-}
-
-.slick-slider {
-  min-width: 0;
-}
-
-.slick-list {
-  overflow: hidden;
-}
-
-.slick-track {
-  display: flex;
-  align-items: flex-start;
-}
-
-.slider22 .slick-dots {
-  display: flex;
-  padding: 0;
-}
-
-.slider22 .slick-dots li {
-  list-style: none;
-  margin: 0 10px;
-}
-
-.slider22 .slick-dots button {
-  font-size: 0;
-  width: 4px;
-  height: 10px;
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 50%;
-  border: 1px solid white;
-}
-
-.slider22 .slick-dots li.slick-active button {
-  background-color: #ffffff;
-  border: 2px solid #fff;
-}
-
-/*slider end*/
 html,
 body {
   margin: 0;
