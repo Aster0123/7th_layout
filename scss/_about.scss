@@ -1,10 +1,10 @@
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 27px;
+  font-size: 48px;
   line-height: 1.2;
   font-weight: 600;
   color: #3a3a3a;
-  margin: 60px auto 37px;
+  margin: 100px auto 63px;
 }
 
 .about {
@@ -18,32 +18,31 @@ h2 {
   flex-direction: column;
 
   img {
-    width: 133px;
-    margin: auto;
+    margin: 0 auto 18px;
   }
 
   h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
+    font-size: 18px;
     line-height: 24px;
     font-weight: 400;
     color: #666666;
-    margin: 17px auto -2px auto;
+    margin: 17px auto 1px auto;
   }
 
   p {
     font-family: 'Varela Round', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     text-align: center;
-    padding: 0 35px;
-    letter-spacing: 0.1px;
-    margin: 0 0 70px 0;
+    padding: 0 70px;
+    margin: 0 0 113px 0;
+    line-height: 24px;
   }
 }
 
 .imageInAbout {
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 699px;
+  width: 1170px;
   margin: auto;
 }

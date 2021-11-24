@@ -1,0 +1,80 @@
+.gallery {
+  background-color: white;
+  height: 822px;
+  position: relative;
+  z-index: 500;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+
+    &_title {
+      margin: 0 auto 58px;
+      width: 994px;
+      padding-top: 28px;
+
+      h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        line-height: 1.2;
+        font-weight: 600;
+        color: #f06464;
+        padding-left: 9px;
+        margin: 40px 0 22px 0;
+      }
+
+      p {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 400;
+        color: #666666;
+        padding: 0 512px 0 11px;
+      }
+    }
+  }
+
+  &__item_photo {
+    .photo_item1 {
+      background-color: black;
+      width: 464px;
+      height: 519px;
+    }
+    .photo_block_down1{
+      position: relative;
+      bottom: 110px;
+      display: none;
+      p{
+        font-family: 'Varela Round',sans-serif;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 400;
+        color: #c2c2c2;
+      }
+    }
+    .photo_item1:hover {
+      img {
+        position: relative;
+        height: 519px;
+        bottom: 38px;
+      }
+      .photo_block_down1{
+        position: relative;
+        bottom: 110px;
+        height: 90px;
+        background-color: black;
+        width: 464px;
+        display: block;
+      }
+    }
+  }
+}
+
+.gallery__item_photo {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
