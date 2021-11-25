@@ -44,6 +44,65 @@ h2 {
   margin: auto;
 }
 
+.compatibility {
+  height: 444px;
+  background-color: #e7e7e7;
+  display: flex;
+}
+
+.compatibility_body {
+  margin: 67px auto;
+  width: 970px;
+}
+.compatibility_body .compatibility_title {
+  border-bottom: 2px solid #cbcbcb;
+}
+.compatibility_body .compatibility_title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #666666;
+}
+.compatibility_body .compatibility__items {
+  display: flex;
+}
+.compatibility_body .compatibility__items .compatibility_left h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #666666;
+  margin: 32px 0 2px 0;
+}
+.compatibility_body .compatibility__items .compatibility_left p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #666666;
+  margin: 0 0 26px 0;
+}
+.compatibility_body .compatibility__items .compatibility_right {
+  padding-left: 11px;
+}
+.compatibility_body .compatibility__items .compatibility_right h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #666666;
+  margin: 32px 0 2px 0;
+}
+.compatibility_body .compatibility__items .compatibility_right p {
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #666666;
+  margin: 0 0 33px 0;
+}
+
 .features {
   height: 803px;
   background-color: #313131;
@@ -164,6 +223,11 @@ h2 {
 }
 
 /*slider end*/
+footer {
+  height: 225px;
+  background-color: #f4f4f4;
+}
+
 header {
   background: url("../image/background_425.png");
   background-size: cover;
@@ -268,6 +332,7 @@ header .menu nav ul li:hover::before {
 .slider__item {
   display: flex;
   flex-direction: column;
+  /*buttons*/
 }
 .slider__item h1 {
   font-family: Montserrat, sans-serif;
@@ -335,6 +400,7 @@ header .menu nav ul li:hover::before {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
+/*buttons end*/
 /*slider end*/
 .gallery {
   background-color: white;
@@ -358,7 +424,7 @@ header .menu nav ul li:hover::before {
   font-weight: 600;
   color: #f06464;
   padding-left: 9px;
-  margin: 40px 0 22px 0;
+  margin: 40px 0 20px 0;
 }
 .gallery__item_title p {
   font-family: "Varela Round", sans-serif;
@@ -366,19 +432,55 @@ header .menu nav ul li:hover::before {
   line-height: 27px;
   font-weight: 400;
   color: #666666;
-  padding: 0 512px 0 11px;
+  padding: 0 512px 0 13px;
+}
+.gallery__item_photo {
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 .gallery__item_photo .photo_item1 {
-  background-color: black;
+  background-color: #151515;
   width: 464px;
   height: 519px;
 }
-.gallery__item_photo .photo_block_down1 {
+.gallery__item_photo .photo_item1 img {
+  width: 464px;
+  height: 519px;
+}
+.gallery__item_photo .photo_item2 {
+  background-color: #151515;
+  width: 519px;
+  height: 519px;
+}
+.gallery__item_photo .photo_item2 img {
+  height: 519px;
+  width: 519px;
+}
+.gallery__item_photo .photo_item3 {
+  background-color: #151515;
+  width: 519px;
+  height: 519px;
+}
+.gallery__item_photo .photo_item3 img {
+  height: 519px;
+  width: 519px;
+}
+.gallery__item_photo .photo_item4 {
+  background-color: #151515;
+  width: 498px;
+  height: 519px;
+}
+.gallery__item_photo .photo_item4 img {
+  height: 519px;
+  width: 498px;
+}
+.gallery__item_photo .photo_block_down {
   position: relative;
   bottom: 110px;
   display: none;
 }
-.gallery__item_photo .photo_block_down1 p {
+.gallery__item_photo .photo_block_down p {
   font-family: "Varela Round", sans-serif;
   font-size: 18px;
   line-height: 27px;
@@ -390,13 +492,79 @@ header .menu nav ul li:hover::before {
   height: 519px;
   bottom: 38px;
 }
-.gallery__item_photo .photo_item1:hover .photo_block_down1 {
+.gallery__item_photo .photo_item1:hover .photo_block_down {
   position: relative;
-  bottom: 110px;
-  height: 90px;
-  background-color: black;
-  width: 464px;
-  display: block;
+  bottom: 92px;
+  height: 88px;
+  background-color: #151515;
+  width: 100%;
+  display: flex;
+}
+.gallery__item_photo .photo_item1:hover .photo_block_down p {
+  margin: 29px 37px;
+}
+.gallery__item_photo .photo_item1:hover .photo_block_down i {
+  margin: auto 68px auto auto;
+}
+.gallery__item_photo .photo_item2:hover img {
+  position: relative;
+  height: 519px;
+  width: 519px;
+  bottom: 38px;
+}
+.gallery__item_photo .photo_item2:hover .photo_block_down {
+  position: relative;
+  bottom: 92px;
+  height: 88px;
+  background-color: #151515;
+  width: 100%;
+  display: flex;
+}
+.gallery__item_photo .photo_item2:hover .photo_block_down p {
+  margin: 29px 37px;
+}
+.gallery__item_photo .photo_item2:hover .photo_block_down i {
+  margin: auto 68px auto auto;
+}
+.gallery__item_photo .photo_item3:hover img {
+  position: relative;
+  height: 519px;
+  width: 519px;
+  bottom: 38px;
+}
+.gallery__item_photo .photo_item3:hover .photo_block_down {
+  position: relative;
+  bottom: 92px;
+  height: 88px;
+  background-color: #151515;
+  width: 100%;
+  display: flex;
+}
+.gallery__item_photo .photo_item3:hover .photo_block_down p {
+  margin: 29px 37px;
+}
+.gallery__item_photo .photo_item3:hover .photo_block_down i {
+  margin: auto 68px auto auto;
+}
+.gallery__item_photo .photo_item4:hover img {
+  position: relative;
+  height: 519px;
+  width: 498px;
+  bottom: 38px;
+}
+.gallery__item_photo .photo_item4:hover .photo_block_down {
+  position: relative;
+  bottom: 92px;
+  height: 88px;
+  background-color: #151515;
+  width: 100%;
+  display: flex;
+}
+.gallery__item_photo .photo_item4:hover .photo_block_down p {
+  margin: 29px 37px;
+}
+.gallery__item_photo .photo_item4:hover .photo_block_down i {
+  margin: auto 68px auto auto;
 }
 
 .gallery__item_photo {
@@ -404,6 +572,16 @@ header .menu nav ul li:hover::before {
   flex-direction: row;
 }
 
+/*for like*/
+.fa {
+  color: #f06464;
+}
+
+.anotherColor {
+  color: red;
+}
+
+/*for like end*/
 .share {
   background-color: #262626;
   height: 734px;
@@ -506,6 +684,107 @@ header .menu nav ul li:hover::before {
 }
 
 /*slider end*/
+.store {
+  height: 723px;
+  background-color: #de5d5d;
+}
+.store .row {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.store .row .store_right {
+  margin: 128px auto 0 56px;
+}
+.store .row .store_right h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 40px 0 17px 0;
+}
+.store .row .store_right h3 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 0 44px;
+}
+.store .row .store_left {
+  margin: 224px 0 0 97px;
+}
+.store .row .store_left .storeBigA {
+  position: relative;
+  z-index: 20;
+}
+.store .row .store_left .shadow {
+  margin-top: -246px;
+  margin-left: 17px;
+}
+
+/*buttons*/
+.button_download {
+  margin: 0 auto 90px;
+  gap: 30px;
+  display: flex;
+}
+.button_download .download2 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  padding: 10px 0 10px 5px;
+  width: 255px;
+  margin: auto;
+  border-radius: 4px;
+}
+.button_download .download2 a {
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  padding-top: 2px;
+}
+.button_download .download2 a img {
+  margin: auto;
+}
+.button_download .download2 a span {
+  margin: 3px auto auto 1px;
+}
+.button_download .download1 {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  padding: 18px 0 7px 5px;
+  width: 255px;
+  margin: auto;
+  border-radius: 4px;
+}
+.button_download .download1 a {
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  padding-top: 2px;
+}
+.button_download .download1 a img {
+  margin: -10px 12px 0px 12px;
+}
+.button_download .download1 a span {
+  margin: -3px auto auto 3px;
+}
+.button_download .btn:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+/*buttons end*/
 @media (max-width: 1200px) {
   header .menu {
     width: auto;
@@ -514,6 +793,21 @@ header .menu nav ul li:hover::before {
 @media (max-width: 1171px) {
   .imageInAbout {
     width: 100%;
+  }
+
+  .store .row {
+    width: 100%;
+  }
+}
+@media (max-width: 1120px) {
+  .store {
+    height: auto;
+  }
+  .store .row .store_right {
+    margin: auto;
+  }
+  .store .row .store_left {
+    margin: auto;
   }
 }
 @media (max-width: 1140px) {
@@ -620,6 +914,22 @@ header .menu nav ul li:hover::before {
     font-family: "Varela Round", sans-serif;
     padding: 0 208px;
   }
+
+  .store .row {
+    flex-direction: column;
+  }
+  .store .row .store_right {
+    margin: auto;
+  }
+  .store .row .store_right h1 {
+    text-align: center;
+  }
+  .store .row .store_right h3 {
+    text-align: center;
+  }
+  .store .row .store_left {
+    margin: 30px auto 0;
+  }
 }
 @media (max-width: 612px) {
   .slider__item h1 {
@@ -671,6 +981,44 @@ header .menu nav ul li:hover::before {
   .slider .slick-dots button {
     width: 8px;
     height: 8px;
+  }
+
+  .button_download {
+    margin: 0 auto 0;
+    gap: 10px;
+    display: flex;
+  }
+  .button_download .download2 {
+    padding: 5px 0 5px 2px;
+    width: 155px;
+  }
+  .button_download .download2 a {
+    font-size: 15px;
+  }
+  .button_download .download2 a img {
+    margin: auto;
+    width: 20px;
+  }
+  .button_download .download2 a span {
+    margin: 1px auto auto 3px;
+  }
+  .button_download .download1 {
+    padding: 5px 0 7px 2px;
+    width: 155px;
+  }
+  .button_download .download1 a {
+    font-size: 15px;
+  }
+  .button_download .download1 a img {
+    margin: auto;
+    width: 20px;
+  }
+  .button_download .download1 a span {
+    margin: 1px auto auto 3px;
+  }
+
+  .store .row .store_left .shadow {
+    display: none;
   }
 }
 @media (max-width: 706px) {
@@ -878,6 +1226,55 @@ header .menu nav ul li:hover::before {
   }
 
   .slider33 {
+    margin: auto;
+  }
+}
+@media (max-width: 1999px) {
+  .gallery .gallery__item .gallery__item_photo .photo_item {
+    width: 100%;
+  }
+  .gallery .gallery__item .gallery__item_photo .photo_item img {
+    width: 100%;
+  }
+}
+@media (max-width: 1440px) {
+  .gallery {
+    height: auto;
+  }
+  .gallery .gallery__item .gallery__item_photo {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 760px) {
+  .gallery {
+    height: auto;
+  }
+  .gallery .gallery__item .gallery__item_photo {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+@media (max-width: 994px) {
+  .gallery__item_title {
+    margin: 0 auto 58px;
+    width: 100%;
+    padding-top: 28px;
+  }
+  .gallery__item_title h2 {
+    text-align: center;
+    padding: 0;
+  }
+  .gallery__item_title p {
+    text-align: center;
+    padding: 0 50px;
+  }
+}
+@media (max-width: 347px) {
+  .gallery .gallery__item .gallery__item_photo .photo_block_down p {
+    margin: 29px 10px;
+  }
+  .gallery .gallery__item .gallery__item_photo .photo_block_down i {
     margin: auto;
   }
 }

@@ -52,6 +52,21 @@ $(document).ready(function () {
   });
 });
 
-
+function myFunction() {
+  var element = document.getElementById("my");
+  element.classList.toggle("anotherColor");
+};
+function myFunction1() {
+  var element = document.getElementById("my1");
+  element.classList.toggle("anotherColor");
+};
+function myFunction2() {
+  var element = document.getElementById("my2");
+  element.classList.toggle("anotherColor");
+};
+function myFunction3() {
+  var element = document.getElementById("my3");
+  element.classList.toggle("anotherColor");
+};
 
 

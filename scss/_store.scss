@@ -1,0 +1,119 @@
+.store {
+  height: 723px;
+  background-color: #de5d5d;
+
+  .row {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+    .store_right {
+      margin: 128px auto 0 56px;
+
+
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #ffffff;
+        margin: 40px 0 17px 0;
+      }
+
+      h3 {
+        font-family: 'Varela Round', sans-serif;
+        font-size: 24px;
+        line-height: 1.2;
+        font-weight: 400;
+        color: #ffffff;
+        margin: 0 0 44px;
+      }
+
+    }
+
+    .store_left {
+      margin: 224px 0 0 97px;
+
+      .storeBigA {
+        position: relative;
+        z-index: 20;
+      }
+
+      .shadow {
+        margin-top: -246px;
+        margin-left: 17px;
+      }
+    }
+  }
+}
+
+/*buttons*/
+.button_download {
+  margin: 0 auto 90px;
+  gap: 30px;
+  display: flex;
+
+  .download2 {
+    background-color: rgb(0, 0, 0, 0);
+    border: 2px solid white;
+    padding: 10px 0 10px 5px;
+    width: 255px;
+    margin: auto;
+    border-radius: 4px;
+
+    a {
+      text-decoration: none;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: 400;
+      color: #ffffff;
+      display: flex;
+      padding-top: 2px;
+
+      img {
+        margin: auto;
+      }
+
+      span {
+        margin: 3px auto auto 1px;
+      }
+    }
+  }
+
+  .download1 {
+    background-color: rgb(0, 0, 0, 0);
+    border: 2px solid white;
+    padding: 18px 0 7px 5px;
+    width: 255px;
+    margin: auto;
+    border-radius: 4px;
+
+    a {
+      text-decoration: none;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 30px;
+      line-height: 1.2;
+      font-weight: 400;
+      color: #ffffff;
+      display: flex;
+      padding-top: 2px;
+
+      img {
+        margin: -10px 12px 0px 12px;
+      }
+
+      span {
+        margin: -3px auto auto 3px;
+      }
+    }
+  }
+
+  .btn:active {
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  }
+}
+
+/*buttons end*/
