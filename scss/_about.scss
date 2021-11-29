@@ -1,10 +1,13 @@
+@import "variables";
+
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $first;
   font-size: 48px;
   line-height: 1.2;
   font-weight: 600;
-  color: #3a3a3a;
+  color: $grey;
   margin: 100px auto 63px;
+  letter-spacing: -1px;
 }
 
 .about {
@@ -13,36 +16,95 @@ h2 {
 }
 
 .image-item {
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-
-  img {
-    margin: 0 auto 18px;
+  .photo1 {
+    width: 229px;
+    height: 229px;
+    margin: -2px 0 0 57px;
   }
 
-  h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #666666;
-    margin: 17px auto 1px auto;
+  .photo2 {
+    width: 231px;
+    height: 230px;
+    margin: -1px 0 0 67px;
   }
 
-  p {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 16px;
-    text-align: center;
+  .photo3 {
+    width: 229px;
+    height: 229px;
+    margin: -1px 0 0 76px;
+  }
+
+  .text_about1 {
     padding: 0 70px;
-    margin: 0 0 113px 0;
-    line-height: 24px;
+    margin: 37px 0 0 -32px;
+
+    h3 {
+      font-family: $first;
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 600;
+      color: $darkgrey;
+      text-align: center;
+      margin-bottom: 1px;
+    }
+
+    p {
+      font-family: $second;
+      font-size: 16px;
+      text-align: center;
+      line-height: 24px;
+      color: $darkgrey;
+    }
+  }
+
+  .text_about2 {
+    padding: 0 53px;
+    margin: 35px 0 0 5px;
+
+    h3 {
+      font-family: $first;
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 600;
+      color: $darkgrey;
+      text-align: center;
+      margin-bottom: 1px;
+    }
+
+    p {
+      font-family: $second;
+      font-size: 16px;
+      text-align: center;
+      line-height: 24px;
+      color: $darkgrey;
+    }
+  }
+
+  .text_about3 {
+    padding: 0 43px;
+    margin: 36px 0 114px 24px;
+
+    h3 {
+      font-family: $first;
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 600;
+      color: $darkgrey;
+      text-align: center;
+      margin-bottom: 1px;
+    }
+
+    p {
+      font-family: $second;
+      font-size: 16px;
+      text-align: center;
+      line-height: 24px;
+      color: $darkgrey;
+    }
   }
 }
 
 .imageInAbout {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  width: 1170px;
   margin: auto;
+  width: 1170px;
 }

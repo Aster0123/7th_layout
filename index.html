@@ -40,7 +40,7 @@
                     <a href="#">Features</a>
                 </li>
                 <li>
-                    <a href="#">Gallery</a>
+                   <span class="gal1"><a href="#">Gallery</a></span>
                 </li>
                 <li>
                     <a href="#">Download</a>
@@ -55,7 +55,7 @@
         <div class="slider__item filter">
             <h1>Capture and Share</h1>
             <div class="button_download">
-                <button type="button" class="btn btn-outline-primary download1"><a href="#"><img
+                <button type="button" class="btn btn-outline-primary download1 "><a href="#"><img
                         src="image/icon_appstore_585.png"
                         alt="logo"><span>App Store</span></a>
                 </button>
@@ -96,27 +96,32 @@
             <h2>Why ama?</h2>
             <div class="imageInAbout row">
                 <div class="image-item col-xs-11 col-sm-11 col-md-4 col-lg-4 col-xl-4">
-                    <img src="image/focus_587.png" alt="photo">
+                 <img class="photo1" src="image/focus_587.png" alt="photo">
+                    <div class="text_about1">
                     <h3>Auto focus</h3>
                     <p>ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed
                         auctor</p>
                 </div>
+                </div>
                 <div class="image-item col-xs-11 col-sm-11 col-md-4 col-lg-4 col-xl-4">
-                    <img src="image/touch_id_577.png" alt="photo">
+                    <img class="photo2" src="image/touch_id_577.png" alt="photo">
+                    <div class="text_about2">
                     <h3>Secured with Touch ID</h3>
                     <p>ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed
                         auctor</p>
+                    </div>
                 </div>
                 <div class="image-item col-xs-11 col-sm-11 col-md-4 col-lg-4 col-xl-4">
-                    <img src="image/filters_588.png" alt="photo">
+                    <img class="photo3" src="image/filters_588.png" alt="photo">
+                    <div class="text_about3">
                     <h3>Your Filters</h3>
                     <p>ultrices nisl sit amet luctus. Donec volutpat arcu ullamcorper facilisis vulputate. Sed
                         auctor</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
     <section>
         <div class="share">
             <div class="row">
@@ -270,15 +275,15 @@
     <section>
         <div class="store">
             <div class="row">
-                <div class="store_left col-lg-6 col-md-12">
+                <div class="store_left">
                     <div class="storeBigA">
                         <img src="image/app_icon_599.png">
                     </div>
-                    <div class="shadow">
+                    <div class="shadow1">
                         <img src="image/shadow_419.png">
                     </div>
                 </div>
-                <div class="store_right col-lg-6 col-md-12">
+                <div class="store_right">
                     <h1>Believe me,</br>
                         you don’t wanna</br>
                         miss this app.</h1>
@@ -309,7 +314,7 @@
                     </div>
                     <div class="compatibility_right">
                         <h3>Android</h3>
-                        <p> Compatible with Android KitKat 4.4 or later.
+                        <p> Compatible with Android KitKat 4.4 or later.</br>
                             Support for x86 devices (i.e. Samsung Galaxy Tab 3 10.1).</p>
                         <img src="image/android_devices_518.png" width="378" height="45">
                     </div>
@@ -319,16 +324,19 @@
     </section>
 </main>
 <footer>
-    <div class="container">
+    <div class="footer_block">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="all-rights">© 2014 ama. All Rights Reserved.</div>
+            <div class="footer_left col-lg-6 col-md-12 col-sm-12">
+                <p>© 2014 ama. All Rights Reserved.</p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="footer_right col-lg-6 col-md-12 col-sm-12">
                 <div class="search">
-                    <div class="search_title">Subscribe our email newsletter.</div>
-                    <div class="search_input">
+                    <p>Subscribe our email newsletter.</p>
+                    <div class="form">
+                    <input class="form_input" type="email" id="email" placeholder="Your email" name="e-mail" required>
+                    <button class="search_input">
                         <a href="#">Submit</a>
+                    </button>
                     </div>
                 </div>
             </div>

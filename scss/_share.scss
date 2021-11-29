@@ -18,8 +18,9 @@
         line-height: 1.2;
         font-weight: 500;
         color: #ffffff;
-        margin: 183px 0 20px 0;
-        padding-left: 7px;
+        margin: 183px 0 19px 0;
+        padding-left: 8px;
+        letter-spacing: -0.3px;
       }
 
       p {
@@ -28,15 +29,15 @@
         line-height: 27px;
         font-weight: 400;
         color: #aeaeae;
-        padding: 0 11px 22px 7px;
-        margin-bottom: 9px;
+        padding: 0 11px 22px 9px;
+        margin-bottom: 10px;
       }
     }
   }
 }
 
 .share_right {
-  padding-left: 98px;
+  padding-left: 6px;
 }
 
 .share_left {
@@ -44,7 +45,7 @@
 
   img {
     margin-top: 72px;
-    margin-left: 8px;
+    margin-left: -6px;
   }
 }
 
@@ -67,7 +68,7 @@
     line-height: 24px;
     font-weight: 400;
     color: #aeaeae;
-    padding: 0 8px 0 30px;
+    padding: 15px 8px 0 30px;
   }
 }
 
@@ -83,7 +84,7 @@
 .slider22 .slick-dots {
   display: flex;
   padding-left: 9px;
-  margin-top: 22px;
+  margin-top: 19px;
 
 }
 

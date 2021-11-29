@@ -1,6 +1,8 @@
+@import "variables";
+
 .compatibility {
   height: 444px;
-  background-color: #e7e7e7;
+  background-color: $lightgrey2;
   display: flex;
 }
 
@@ -9,14 +11,17 @@
   width: 970px;
 
   .compatibility_title {
-    border-bottom: 2px solid #cbcbcb;
+    border-bottom: 2px solid $lightgrey;
+    margin-bottom: -2px;
 
     h1 {
-      font-family: 'Montserrat', sans-serif;
+      font-family: $first;
       font-size: 24px;
       line-height: 1.2;
       font-weight: 400;
-      color: #666666;
+      color: $darkgrey;
+      margin-top: 20px;
+      margin-bottom: 21px;
     }
   }
 
@@ -24,22 +29,28 @@
     display: flex;
 
     .compatibility_left {
+      width: 46%;
+      margin-right: 46px;
+
       h3 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: $first;
         font-size: 18px;
         line-height: 24px;
         font-weight: 400;
-        color: #666666;
+        color: $darkgrey;
         margin: 32px 0 2px 0;
       }
 
       p {
-        font-family: 'Varela Round', sans-serif;
+        font-family: $second;
         font-size: 16px;
         line-height: 24px;
         font-weight: 400;
-        color: #666666;
-        margin: 0 0 26px 0;
+        color: $darkgrey;
+        margin: 0 0 27px 0;
+      }
+      img{
+        padding-left: 1px;
       }
     }
 
@@ -47,21 +58,21 @@
       padding-left: 11px;
 
       h3 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: $first;
         font-size: 18px;
         line-height: 24px;
         font-weight: 400;
-        color: #666666;
+        color: $darkgrey;
         margin: 32px 0 2px 0;
       }
 
       p {
-        font-family: 'Varela Round', sans-serif;
+        font-family: $second;
         font-size: 16px;
         line-height: 24px;
         font-weight: 400;
-        color: #666666;
-        margin: 0 0 33px 0;
+        color: $darkgrey;
+        margin: 0 0 34px 0;
       }
     }
   }
