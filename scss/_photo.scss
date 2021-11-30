@@ -1,5 +1,6 @@
+@import "variables";
 .gallery {
-  background-color: white;
+  background-color: $white;
   height: 822px;
   position: relative;
   z-index: 500;
@@ -14,21 +15,21 @@
       padding-top: 29px;
 
       h2 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: $first;
         font-size: 48px;
         line-height: 1.2;
         font-weight: 600;
-        color: #f06464;
+        color: $almostpink;
         padding-left: 9px;
         margin: 40px 0 20px 0;
       }
 
       p {
-        font-family: 'Varela Round', sans-serif;
+        font-family: $second;
         font-size: 18px;
         line-height: 27px;
         font-weight: 400;
-        color: #666666;
+        color: $darkgrey;
         padding: 0 512px 0 13px;
         margin-bottom: 19px;
       }
@@ -41,7 +42,7 @@
     grid-template-columns: auto auto auto auto;
 
     .photo_item1 {
-      background-color: #151515;
+      background-color: $black;
       width: 464px;
       height: 519px;
 
@@ -52,7 +53,7 @@
     }
 
     .photo_item2 {
-      background-color: #151515;
+      background-color: $black;
       width: 519px;
       height: 519px;
 
@@ -63,7 +64,7 @@
     }
 
     .photo_item3 {
-      background-color: #151515;
+      background-color: $black;
       width: 519px;
       height: 519px;
 
@@ -74,7 +75,7 @@
     }
 
     .photo_item4 {
-      background-color: #151515;
+      background-color: $black;
       width: 498px;
       height: 519px;
 
@@ -90,7 +91,7 @@
       display: none;
 
       p {
-        font-family: 'Varela Round', sans-serif;
+        font-family: $second;
         font-size: 18px;
         line-height: 27px;
         font-weight: 400;
@@ -110,7 +111,7 @@
         position: relative;
         bottom: 92px;
         height: 88px;
-        background-color: #151515;
+        background-color: $black;
         width: 100%;
         display: flex;
 
@@ -136,7 +137,7 @@
         position: relative;
         bottom: 92px;
         height: 88px;
-        background-color: #151515;
+        background-color: $black;
         width: 100%;
         display: flex;
 
@@ -162,7 +163,7 @@
         position: relative;
         bottom: 92px;
         height: 88px;
-        background-color: #151515;
+        background-color: $black;
         width: 100%;
         display: flex;
 
@@ -188,7 +189,7 @@
         position: relative;
         bottom: 92px;
         height: 88px;
-        background-color: #151515;
+        background-color: $black;
         width: 100%;
         display: flex;
 
@@ -211,11 +212,10 @@
 
 /*for like*/
 .fa {
-  color: #f06464;
+  color: $almostpink;
 }
 
 .anotherColor {
   color: red;
 }
-
 /*for like end*/

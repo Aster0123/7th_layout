@@ -1,6 +1,7 @@
+@import "variables";
 footer {
   height: 225px;
-  background-color: #f4f4f4;
+  background-color: $anotherwhite;
 
   .footer_block {
     display: flex;
@@ -14,11 +15,11 @@ footer {
         padding: 0;
 
         p {
-          font-family: 'Montserrat', sans-serif;
+          font-family: $first;
           font-size: 18px;
           line-height: 1.2;
           font-weight: 400;
-          color: #666666;
+          color: $darkgrey;
           letter-spacing: 0.2px;
         }
       }
@@ -28,11 +29,11 @@ footer {
           margin: -35px 0 0 102px;
 
           p {
-            font-family: 'Varela Round', sans-serif;
+            font-family: $second;
             font-size: 16px;
             line-height: 24px;
             font-weight: 400;
-            color: #666666;
+            color: $darkgrey;
             margin-bottom: 15px;
           }
 
@@ -42,8 +43,8 @@ footer {
             .form_input {
               width: 311px;
               height: 48px;
-              background-color: #f4f4f4;
-              border: 1px solid #a3a3a3;
+              background-color: $anotherwhite;
+              border: 1px solid $grey;
               border-radius: 5px;
               padding: 14px 0 15px 15px;
             }
@@ -51,7 +52,7 @@ footer {
             .search_input {
               width: 101px;
               height: 48px;
-              background-color: #f06464;
+              background-color: $almostpink;
               border-radius: 5px;
               border: 0;
               padding-top: 0;
@@ -59,17 +60,17 @@ footer {
               margin-top: 0;
 
               a {
-                font-family: 'Varela Round', sans-serif;
+                font-family: $second;
                 font-size: 16px;
                 line-height: 24px;
                 font-weight: 400;
-                color: #f4f4f4;
+                color: $anotherwhite;
                 text-decoration: none;
               }
             }
             .search_input:active {
               transform: scale(0.98);
-              box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+              box-shadow: 3px 2px 22px 1px $dark2;
             }
           }
         }

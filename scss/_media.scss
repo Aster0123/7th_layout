@@ -1,3 +1,4 @@
+@import "variables";
 @media (max-width: 1200px) {
   header {
     .menu {
@@ -57,7 +58,7 @@
     &::before,
     &::after {
       content: '';
-      background-color: white;
+      background-color: $white;
       position: absolute;
       left: 40*0.2+px;
       width: 40*0.6+px;
@@ -78,7 +79,7 @@
       left: 40*0.2+px;
       width: 40*0.6+px;
       height: 2px;
-      background-color: white;
+      background-color: $white;
     }
   }
   nav {
@@ -121,9 +122,9 @@
     flex-direction: column;
 
     h1 {
-      font-family: Montserrat, sans-serif;
+      font-family: $first;
       line-height: 1.2;
-      color: #ffffff;
+      color: $white;
       margin: 106px auto 41px;
       font-size: 60px;
       font-weight: 600;
@@ -215,55 +216,56 @@
     width: 8px;
     height: 8px;
   }
-  .button_download {
-    margin: 0 auto 15px;
-    gap: 10px;
-    display: flex;
 
-    .download2 {
-      padding: 5px 0 5px 2px;
-      width: 155px;
-
-      a {
-        font-size: 15px;
-
-        img {
-          margin: auto;
-          width: 20px;
-        }
-
-        span {
-          margin: 1px auto auto 3px;
-        }
-      }
-    }
-
-    .download1 {
-      padding: 5px 0 7px 2px;
-      width: 155px;
-
-      a {
-        font-size: 15px;
-
-        img {
-          margin: auto;
-          width: 20px;
-        }
-
-        span {
-          margin: 1px auto auto 3px;
-        }
-      }
-    }
-  }
   .store {
     .row {
-
-
       .store_left {
 
         .shadow1 {
           display: none;
+        }
+      }
+      .store_right{
+        .button_download {
+          margin: 0 auto 15px;
+          gap: 10px;
+          display: flex;
+
+          .download2 {
+            padding: 5px 0 5px 2px;
+            width: 155px;
+
+            a {
+              font-size: 15px;
+
+              img {
+                margin: auto;
+                width: 20px;
+              }
+
+              span {
+                margin: 1px auto auto 3px;
+              }
+            }
+          }
+
+          .download1 {
+            padding: 5px 0 7px 2px;
+            width: 155px;
+
+            a {
+              font-size: 15px;
+
+              img {
+                margin: auto;
+                width: 20px;
+              }
+
+              span {
+                margin: 1px auto auto 3px;
+              }
+            }
+          }
         }
       }
     }
@@ -289,7 +291,7 @@
       }
 
       p {
-        font-family: 'Varela Round', sans-serif;
+        font-family: $second;
         font-size: 11px;
         line-height: 15px;
         font-weight: 400;
@@ -612,7 +614,7 @@
           width: 100%;
 
           .compatibility_title {
-            border-bottom: 2px solid #cbcbcb;
+            border-bottom: 2px solid $lightgrey;
             margin-bottom: -2px;
 
             h1 {

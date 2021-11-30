@@ -9933,7 +9933,7 @@ h2 {
   font-size: 48px;
   line-height: 1.2;
   font-weight: 600;
-  color: #a3a3a3;
+  color: #3a3a3a;
   margin: 100px auto 63px;
   letter-spacing: -1px;
 }
@@ -10136,7 +10136,7 @@ h2 {
 .slider33 {
   width: 470px;
   margin-top: 39px;
-  background-color: white;
+  background-color: #ffffff;
   height: 232px;
   border-radius: 5px;
 }
@@ -10204,7 +10204,7 @@ h2 {
   height: 12px;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 50%;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   padding: 1px 0;
 }
 
@@ -10325,13 +10325,13 @@ header .menu nav ul li {
 }
 header .menu nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 header .menu nav ul li:hover::before {
   display: block;
   content: "";
   position: absolute;
-  background-color: white;
+  background-color: #ffffff;
   height: 3px;
   width: 60px;
   top: 0;
@@ -10378,7 +10378,7 @@ header .menu nav ul li .gal1 {
   height: 12px;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 50%;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   padding: 1px 0;
 }
 
@@ -10393,7 +10393,7 @@ header .menu nav ul li .gal1 {
   /*buttons*/
 }
 .slider__item h1 {
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.2;
   color: #ffffff;
   margin: 106px auto 73px;
@@ -10408,7 +10408,7 @@ header .menu nav ul li .gal1 {
 }
 .slider__item .button_download .download2 {
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   padding: 10px 0 10px 5px;
   width: 255px;
   margin: auto;
@@ -10432,7 +10432,7 @@ header .menu nav ul li .gal1 {
 }
 .slider__item .button_download .download1 {
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   padding: 18px 0 9px 5px;
   width: 255px;
   margin: auto;
@@ -10470,7 +10470,7 @@ header .menu nav ul li .gal1 {
 /*buttons end*/
 /*slider end*/
 .gallery {
-  background-color: white;
+  background-color: #ffffff;
   height: 822px;
   position: relative;
   z-index: 500;
@@ -10743,7 +10743,7 @@ header .menu nav ul li .gal1 {
   height: 12px;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 50%;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
   padding: 1px 0;
 }
 
@@ -10791,7 +10791,7 @@ header .menu nav ul li .gal1 {
 }
 .store .row .store_right .button_download .download2 {
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   padding: 12px 0 10px 5px;
   width: 255px;
   margin: auto;
@@ -10815,7 +10815,7 @@ header .menu nav ul li .gal1 {
 }
 .store .row .store_right .button_download .download1 {
   background-color: rgba(0, 0, 0, 0);
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   padding: 17px 0 10px 6px;
   width: 255px;
   margin: auto;
@@ -10906,7 +10906,7 @@ header .menu nav ul li .gal1 {
   }
   .header__burger::before, .header__burger::after {
     content: "";
-    background-color: white;
+    background-color: #ffffff;
     position: absolute;
     left: 8px;
     width: 24px;
@@ -10924,7 +10924,7 @@ header .menu nav ul li .gal1 {
     left: 8px;
     width: 24px;
     height: 2px;
-    background-color: white;
+    background-color: #ffffff;
   }
 
   nav {
@@ -10963,7 +10963,7 @@ header .menu nav ul li .gal1 {
     flex-direction: column;
   }
   .slider__item h1 {
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.2;
     color: #ffffff;
     margin: 106px auto 41px;
@@ -11043,42 +11043,41 @@ header .menu nav ul li .gal1 {
     height: 8px;
   }
 
-  .button_download {
+  .store .row .store_left .shadow1 {
+    display: none;
+  }
+  .store .row .store_right .button_download {
     margin: 0 auto 15px;
     gap: 10px;
     display: flex;
   }
-  .button_download .download2 {
+  .store .row .store_right .button_download .download2 {
     padding: 5px 0 5px 2px;
     width: 155px;
   }
-  .button_download .download2 a {
+  .store .row .store_right .button_download .download2 a {
     font-size: 15px;
   }
-  .button_download .download2 a img {
+  .store .row .store_right .button_download .download2 a img {
     margin: auto;
     width: 20px;
   }
-  .button_download .download2 a span {
+  .store .row .store_right .button_download .download2 a span {
     margin: 1px auto auto 3px;
   }
-  .button_download .download1 {
+  .store .row .store_right .button_download .download1 {
     padding: 5px 0 7px 2px;
     width: 155px;
   }
-  .button_download .download1 a {
+  .store .row .store_right .button_download .download1 a {
     font-size: 15px;
   }
-  .button_download .download1 a img {
+  .store .row .store_right .button_download .download1 a img {
     margin: auto;
     width: 20px;
   }
-  .button_download .download1 a span {
+  .store .row .store_right .button_download .download1 a span {
     margin: 1px auto auto 3px;
-  }
-
-  .store .row .store_left .shadow1 {
-    display: none;
   }
 }
 @media (max-width: 706px) {

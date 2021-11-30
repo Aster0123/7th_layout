@@ -1,6 +1,7 @@
+@import "variables";
 .store {
   height: 723px;
-  background-color: #de5d5d;
+  background-color: $almostpink2;
 
   .row {
     width: 1170px;
@@ -13,21 +14,21 @@
 
 
       h1 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: $first;
         font-size: 48px;
         line-height: 1.2;
         font-weight: 600;
-        color: #ffffff;
+        color: $white;
         margin: 40px 0 17px 0;
         letter-spacing: -0.8px;
       }
 
       h3 {
-        font-family: 'Varela Round', sans-serif;
+        font-family: $second;
         font-size: 24px;
         line-height: 1.2;
         font-weight: 400;
-        color: #ffffff;
+        color: $white;
         margin: 0 0 43px;
       }
       /*buttons*/
@@ -38,7 +39,7 @@
 
         .download2 {
           background-color: rgb(0, 0, 0, 0);
-          border: 2px solid white;
+          border: 2px solid $white;
           padding: 12px 0 10px 5px;
           width: 255px;
           margin: auto;
@@ -46,11 +47,11 @@
 
           a {
             text-decoration: none;
-            font-family: 'Varela Round', sans-serif;
+            font-family: $second;
             font-size: 30px;
             line-height: 1.2;
             font-weight: 400;
-            color: #ffffff;
+            color: $white;
             display: flex;
             padding-top: 2px;
 
@@ -65,8 +66,8 @@
         }
 
         .download1 {
-          background-color: rgb(0, 0, 0, 0);
-          border: 2px solid white;
+          background-color: $dark1;
+          border: 2px solid $white;
           padding: 17px 0 10px 6px;
           width: 255px;
           margin: auto;
@@ -74,11 +75,11 @@
 
           a {
             text-decoration: none;
-            font-family: 'Varela Round', sans-serif;
+            font-family: $second;
             font-size: 30px;
             line-height: 1.2;
             font-weight: 400;
-            color: #ffffff;
+            color: $white;
             display: flex;
             padding-top: 2px;
 
@@ -94,16 +95,16 @@
 
         .download1:active {
           transform: scale(0.98);
-          box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-          background-color: rgb(0, 0, 0, 0);
-          border-color: rgba(0, 0, 0, 0.24);
+          box-shadow: 3px 2px 22px 1px $dark2;
+          background-color: $dark1;
+          border-color: $dark2;
         }
 
         .download2:active {
           transform: scale(0.98);
-          box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-          background-color: rgb(0, 0, 0, 0);
-          border-color: rgba(0, 0, 0, 0.24);
+          box-shadow: 3px 2px 22px 1px $dark2;
+          background-color: $dark1;
+          border-color: $dark2;
         }
       }
 
